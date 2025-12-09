@@ -28,4 +28,10 @@ Instalación:<br>
 
 Caso de errores:<br>
 -si existen errores hagan el favor de instalar qt para el sistema.<br>
--si no tiene archivos actualmente verifique que en src/csv/ existan archivos csv, si no vuelva a descargar los archivos.
+-si no tiene archivos actualmente verifique que en src/csv/ existan archivos csv, si no vuelva a descargar los archivos.<br>
+
+Creadores:
+Carlos Gael Guerrero Salazar
+Hector Abad Contreraz Muñiz
+Juan Francisco Ortega Pulido
+Efrain Abdiel Villanueva Balboa

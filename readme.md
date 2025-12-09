@@ -20,7 +20,7 @@ Paginas hechas en qt para el manejo de datos. cada acción esta de raiz de la ca
 ![Como se ve los horarios resueltos](img/a.png)
 
 
-Instalación:
+Instalación:<br>
 -desde el boton de github <>code descarga el zip.<br>
 -descomprime la carpeta zip.<br>
 -ingresa en la carpeta build .<br>

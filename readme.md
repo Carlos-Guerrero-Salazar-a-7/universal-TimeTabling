@@ -26,6 +26,6 @@ Instalación:<br>
 -ingresa en la carpeta build .<br>
 -haz click en el ejecutable "timetabling".<br>
 
-Caso de errores:
-si existen errores hagan el favor de instalar qt para el sistema.<br>
-si no tiene archivos actualmente verifique que en src/csv/ existan archivos csv, si no vuelva a descargar los archivos.
+Caso de errores:<br>
+-si existen errores hagan el favor de instalar qt para el sistema.<br>
+-si no tiene archivos actualmente verifique que en src/csv/ existan archivos csv, si no vuelva a descargar los archivos.

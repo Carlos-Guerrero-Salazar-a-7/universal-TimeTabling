@@ -1,0 +1,48 @@
+{
+    nombre:2-1;
+    horario:7:00-13:55;
+    conjunto de materias:segundos;
+    color: 78,205,196;
+}
+{
+    nombre:2-2;
+    horario:7:00-13:55;
+    conjunto de materias:segundos;
+    color: 255,195,0;
+}
+{
+    nombre:4-1;
+    horario:7:00-13:55;
+    conjunto de materias:cuartos;
+    color: 199,121,255;
+}
+{
+    nombre:5-1;
+    horario:7:00-13:55;
+    conjunto de materias:quintos;
+    color: 255,159,243;
+}
+{
+    nombre:5-2;
+    horario:7:00-13:55;
+    conjunto de materias:quintos;
+    color: 119,221,119;
+}
+{
+    nombre:7-1;
+    horario:7:00-13:55;
+    conjunto de materias:septimos;
+    color: 253,203,110;
+}
+{
+    nombre:8-1;
+    horario:7:00-13:55;
+    conjunto de materias:octavos;
+    color: 129,207,224;
+}
+{
+    nombre:8-2;
+    horario:7:00-13:55;
+    conjunto de materias:octavos;
+    color: 255,121,198;
+}

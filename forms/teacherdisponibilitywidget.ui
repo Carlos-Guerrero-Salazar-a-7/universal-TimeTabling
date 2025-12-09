@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TeacherDisponibilityWidget</class>
+ <widget class="QWidget" name="TeacherDisponibilityWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1231</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QLabel" name="titleLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>401</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 36px;
+color: black;</string>
+   </property>
+   <property name="text">
+    <string>Disponibilidad Maestros</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>721</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #e0e0e0;
+border-radius: 20px;
+padding-left: 15px;
+font-size: 14px;
+color: #606060;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addTeacherButton">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>90</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #333333;
+color: white;
+border-radius: 5px;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>+ Agregar Maestro</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>1171</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background-color: transparent;</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1171</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QFrame" name="teacherCard">
+       <property name="minimumSize">
+        <size>
+         <width>550</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f9f9f9;
+border-radius: 5px;</string>
+       </property>
+       <widget class="QLabel" name="teacherNameLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>301</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-size: 18px;
+color: black;
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Nombre del Maestro</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="editButton">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>10</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #333333;
+color: white;
+border-radius: 5px;
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Editar</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="scheduleTable">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>621</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QHeaderView::section {
+    background-color: #4a5c8c;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #fff;
+    font-size: 10px;
+}
+QTableWidget {
+    gridline-color: #fff;
+    background-color: #4a5c8c;
+    color: white;
+    font-size: 10px;
+}
+QTableWidget::item {
+    border: 1px solid #fff;
+}</string>
+        </property>
+        <property name="rowCount">
+         <number>9</number>
+        </property>
+        <property name="columnCount">
+         <number>6</number>
+        </property>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <column>
+         <property name="text">
+          <string/>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>L</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>M</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>M</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>J</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>V</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>7:00 - 7:54</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

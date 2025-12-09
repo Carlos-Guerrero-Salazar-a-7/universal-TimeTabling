@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GruposWidget</class>
+ <widget class="QWidget" name="GruposWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1231</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QLabel" name="titleLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 36px;
+color: black;</string>
+   </property>
+   <property name="text">
+    <string>Grupos</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>601</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #e0e0e0;
+border-radius: 20px;
+padding-left: 15px;
+font-size: 14px;
+color: #606060;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="createGroupButton">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>90</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #4cd964;
+color: white;
+border-radius: 5px;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>+ Crear Grupo</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>801</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background-color: transparent;</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QFrame" name="groupItem">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f9f9f9;
+border-radius: 5px;</string>
+       </property>
+       <widget class="QLabel" name="groupNameLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>201</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font-size: 18px;
+color: black;
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Nombre del Grupo</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="deleteButton">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>10</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #e74c3c;
+color: white;
+border-radius: 5px;
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Eliminar</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="editButton">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>10</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #d4ac0d;
+color: white;
+border-radius: 5px;
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Editar</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="groupTable">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>771</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QHeaderView::section {
+    background-color: #5c7c9e;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+QTableWidget {
+    gridline-color: #fff;
+    background-color: #5c7c9e;
+    color: white;
+}
+QTableWidget::item {
+    border: 1px solid #fff;
+}</string>
+        </property>
+        <property name="columnCount">
+         <number>3</number>
+        </property>
+        <column>
+         <property name="text">
+          <string>Materias</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Horas</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Maestro</string>
+         </property>
+        </column>
+        <row/>
+        <item row="0" column="0">
+         <property name="text">
+          <string>Materia</string>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>Maestro</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

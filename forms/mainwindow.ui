@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1231</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="navegation">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #3498db; 
+color: black;
+font-weight: semi-bold;       
+font-size: 14px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="generationButton">
+     <property name="geometry">
+      <rect>
+       <x>1100</x>
+       <y>10</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Estado Normal */
+QPushButton {
+    background-color: rgb(246, 245, 244);
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estado Hover (Cuando pasas el mouse) */
+QPushButton:hover {
+    background-color: rgb(153, 193, 241); /* Se pone verde */
+}
+
+/* Estado Pressed (Cuando haces clic) */
+QPushButton:pressed {
+    background-color: rgb(98, 160, 234);
+} </string>
+     </property>
+     <property name="text">
+      <string>Generacion</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="teacherDisponibilityButton">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>10</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Estado Normal */
+QPushButton {
+    background-color: rgb(246, 245, 244);
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estado Hover (Cuando pasas el mouse) */
+QPushButton:hover {
+    background-color: rgb(153, 193, 241); /* Se pone verde */
+}
+
+/* Estado Pressed (Cuando haces clic) */
+QPushButton:pressed {
+    background-color: rgb(98, 160, 234);
+} </string>
+     </property>
+     <property name="text">
+      <string>Disponibilidad Maestros</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="schedulesButton">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>10</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Estado Normal */
+QPushButton {
+    background-color: rgb(246, 245, 244);
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estado Hover (Cuando pasas el mouse) */
+QPushButton:hover {
+    background-color: rgb(153, 193, 241); /* Se pone verde */
+}
+
+/* Estado Pressed (Cuando haces clic) */
+QPushButton:pressed {
+    background-color: rgb(98, 160, 234);
+} </string>
+     </property>
+     <property name="text">
+      <string>Horarios</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cuatrimestresButton">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Estado Normal */
+QPushButton {
+    background-color: rgb(246, 245, 244);
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estado Hover (Cuando pasas el mouse) */
+QPushButton:hover {
+    background-color: rgb(153, 193, 241); /* Se pone verde */
+}
+
+/* Estado Pressed (Cuando haces clic) */
+QPushButton:pressed {
+    background-color: rgb(98, 160, 234);
+} </string>
+     </property>
+     <property name="text">
+      <string>Cuatrimestres</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="groupButton">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>10</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Estado Normal */
+QPushButton {
+    background-color: rgb(246, 245, 244);
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estado Hover (Cuando pasas el mouse) */
+QPushButton:hover {
+    background-color: rgb(153, 193, 241); /* Se pone verde */
+}
+
+/* Estado Pressed (Cuando haces clic) */
+QPushButton:pressed {
+    background-color: rgb(98, 160, 234);
+} </string>
+     </property>
+     <property name="text">
+      <string>Grupos</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="salonesButton">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>10</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Estado Normal */
+QPushButton {
+    background-color: rgb(246, 245, 244);
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estado Hover (Cuando pasas el mouse) */
+QPushButton:hover {
+    background-color: rgb(153, 193, 241); /* Se pone verde */
+}
+
+/* Estado Pressed (Cuando haces clic) */
+QPushButton:pressed {
+    background-color: rgb(98, 160, 234);
+} </string>
+     </property>
+     <property name="text">
+      <string>Salones</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sectionTitle">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 28px;
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Generacion</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>1231</width>
+      <height>551</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1231</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rrgb(119, 118, 123);</string>
+   </property>
+   <widget class="QMenu" name="menuTimetabling">
+    <property name="title">
+     <string>Timetabling</string>
+    </property>
+   </widget>
+   <addaction name="menuTimetabling"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,144 @@
+{
+    nombre:VANESSA JANETH LARA VALDEZ;
+    materias:Habilidades del Pensamiento,Ingles I,Inteligencia Emocional,Habilidades Organizacionales;
+    horario: (Lunes:7:00-13:55;Martes:7:00-13:55;Miercoles:7:00-13:55;Jueves:7:00-13:55;Viernes:7:00-13:55);
+    color: 156,39,176;
+}
+{
+    nombre:SAID POLANCO MARTADRAGO;
+    materias:Introducción a la Programación Orientada a Objetos,Programación Orientada a Objetos,Ingeniería de Requerimientos,Lógica Computacional,Estructura de Datos,Herramientas Ofimáticas,Proyectos de Tecnologías de la Información;
+    horario: (Lunes:7:00-13:55;Martes:7:00-13:55;Miercoles:7:00-13:55;Jueves:7:00-13:55;Viernes:7:00-13:55);
+    color: 255,152,0;
+}
+{
+    nombre:JEAN-MICHAEL RECHER;
+    materias:Seminario de Investigación,Proyectos de Tecnologías de la Información,Administración de Sistemas Integrales,Ingeniería de Requerimientos;
+    horario: (Lunes:7:55-15:50;Martes:7:55-15:50;Miercoles:7:55-15:50;Jueves:7:55-15:50;Viernes:7:55-15:50);
+    color: 233,30,99;
+}
+{
+    nombre:ALBERTO GARCIA ROBLEDO;
+    materias:Diseño de Bases de Datos,Introducción a las Bases de Datos,Seguridad Informática,Minería de Datos Aplicada,Probabilidad y Estadística,Tecnologías WAN,Introducción a la ITI,Herramientas Multimedia,Arquitectura de Computadoras,Herramientas Ofimáticas;
+    horario: (Lunes:8:50-15:50;Martes:8:50-15:50;Miercoles:8:50-15:50;Jueves:8:50-15:50;Viernes:8:50-15:50);
+    color: 0,150,136;
+}
+{
+    nombre:Karla E. VÁZQUEZ ORTIZ;
+    materias:Diseño de Bases de Datos,Introducción a las Bases de Datos,Seguridad Informática,Minería de Datos Aplicada,Probabilidad y Estadística,Tecnologías WAN,Introducción a la ITI,Herramientas Multimedia,Arquitectura de Computadoras,Herramientas Ofimáticas;
+    horario: (Lunes:7:55-15:50;Martes:7:55-15:50;Miercoles:7:55-15:50;Jueves:7:55-15:50;Viernes:7:55-15:50);
+    color: 3,169,244;
+}
+{
+    nombre:HECTOR HUGO AVILÉS ARRIAGA;
+    materias:Matemáticas Básicas,Matemáticas Discretas,Fundamentos de Física,Matemáticas Discretas,Álgebra Lineal,Probabilidad y Estadística,Administración de Sistemas Integrales;
+    horario: no disponible;
+    color: 139,195,74;
+}
+{
+    nombre:MARCO ANDRES NUÑO MAGANDA;
+    materias:Ingles II,Diseño de Interfaces,Graficación Por Computadora Avanzada,Introducción a la Graficación por Computadora,Programación WEB,Negocios Electrónicos,Ingeniería de Requerimientos,Introducción a la Programación Orientada a Objetos,Lógica Computacional;
+    horario: (Lunes:7:55-15:50;Martes:7:55-15:50;Miercoles:7:55-15:50;Jueves:7:55-15:50;Viernes:7:55-15:50);
+    color: 63,81,181;
+}
+{
+    nombre:Jorge Arturo Hernández Almazan;
+    materias:Inteligencia Emocional,Habilidades del Pensamiento,Habilidades Organizacionales,Ingles III;
+    horario: (Lunes:8:50-15:00;Martes:8:50-15:00;Miercoles:8:50-15:00;Jueves:8:50-15:00;Viernes:8:50-15:00);
+    color: 255,193,7;
+}
+{
+    nombre:Mario H. Rodriguez Chávez;
+    materias:Lógica Computacional,Tecnologías WAN,Herramientas Multimedia,Fundamentos de Redes,Switcheo y Wireless,Tecnologías WAN,Seguridad Informática,Programación WEB,Proyectos de Tecnologías de la Información,Negocios Electrónicos;
+    horario: (Lunes:7:55-15:50;Martes:7:55-15:50;Miercoles:7:55-15:50;Jueves:7:55-15:50;Viernes:7:55-15:50);
+    color: 244,67,54;
+}
+{
+    nombre:Jorge O. Jasso Luna;
+    materias:Diseño de Bases de Datos,Introducción a las Bases de Datos,Seguridad Informática,Minería de Datos Aplicada,Probabilidad y Estadística,Tecnologías WAN,Introducción a la ITI,Herramientas Multimedia,Arquitectura de Computadoras,Herramientas Ofimáticas;
+    horario: (Lunes:7:00-15:50;Martes:7:00-15:50;Miercoles:7:00-15:50;Jueves:7:00-15:50;Viernes:7:00-15:50);
+    color: 103,58,183;
+}
+{
+    nombre:Hiram Herrera Rivas;
+    materias:Tecnologías WAN,Herramientas Multimedia,Fundamentos de Redes,Switcheo y Wireless,Tecnologías WAN,Seguridad Informática,Programación WEB,Proyectos de Tecnologías de la Información,Negocios Electrónicos;
+    horario: (Lunes:8:50-16:45;Martes:8:50-16:45;Miercoles:8:50-16:45;Jueves:8:50-16:45;Viernes:8:50-16:45);
+    color: 0,188,212;
+}
+{
+    nombre:Alma Delia Amaya Vázquez;
+    materias:Ingeniería de Requerimientos,Herramientas Ofimáticas,Lógica Computacional,Introducción a la Programación Orientada a Objetos,Estructura de Datos,Programación Orientada a Objetos,Proyectos de Tecnologías de la Información;
+    horario: (Lunes:7:00-15:00;Martes:7:00-15:00;Miercoles:7:00-15:00;Jueves:7:00-15:00;Viernes:7:00-15:00);
+    color: 76,175,80;
+}
+{
+    nombre:José Fidencio López Luna;
+    materias:Algoritmos,Introducción a la ITI,Arquitectura de Computadoras,Herramientas Multimedia,Ingeniería de Requerimientos,Diseño de Interfaces,Proyectos de Tecnologías de la Información,Administración de Sistemas Integrales;
+    horario: (Lunes:7:55-15:50;Martes:7:55-15:50;Miercoles:7:55-15:50;Jueves:7:55-15:50;Viernes:7:55-15:50);
+    color: 255,87,34;
+}
+{
+    nombre:Manuel Ruiz Méndez;
+    materias:Diseño de Bases de Datos,Introducción a las Bases de Datos,Seguridad Informática,Minería de Datos Aplicada,Probabilidad y Estadística,Tecnologías WAN,Introducción a la ITI,Herramientas Multimedia,Arquitectura de Computadoras,Herramientas Ofimáticas;
+    horario: (Lunes:16:45-20:45;Martes:16:45-20:45;Miercoles:16:45-20:45;Jueves:16:45-20:45;Viernes:16:45-20:45);
+    color: 121,85,72;
+}
+{
+    nombre:Israel Pulido Picazo;
+    materias:Tecnologías WAN,Herramientas Multimedia,Fundamentos de Redes,Switcheo y Wireless,Tecnologías WAN,Seguridad Informática,Programación WEB,Proyectos de Tecnologías de la Información,Negocios Electrónicos;
+    horario: (Lunes:16:45-20:45;Martes:16:45-20:45;Miercoles:16:45-20:45;Jueves:16:45-20:45;Viernes:16:45-20:45);
+    color: 96,125,139;
+}
+{
+    nombre:Marina Cristal Flores Flores;
+    materias:Tecnologías WAN,Herramientas Multimedia,Fundamentos de Redes,Switcheo y Wireless,Tecnologías WAN,Seguridad Informática,Programación WEB,Proyectos de Tecnologías de la Información,Negocios Electrónicos;
+    horario: (Lunes:16:45-20:45;Martes:16:45-20:45;Miercoles:16:45-20:45;Jueves:16:45-20:45;Viernes:16:45-20:45);
+    color: 255,235,59;
+}
+{
+    nombre:Arturo G. Mascorro Cienfuegos;
+    materias:Matemáticas Básicas,Matemáticas Discretas,Fundamentos de Física,Matemáticas Discretas,Álgebra Lineal,Probabilidad y Estadística,Administración de Sistemas Integrales;
+    horario: (Lunes:7:00-8:50 16:45-19:50;Martes:7:00-8:50 16:45-19:50;Miercoles:7:00-8:50 16:45-19:50;Jueves:7:00-8:50 16:45-19:50;Viernes:7:00-8:50 16:45-19:50);
+    color: 205,220,57;
+}
+{
+    nombre:Hugo O. Camargo;
+    materias:Ingeniería de Requerimientos,Herramientas Ofimáticas,Lógica Computacional,Introducción a la Programación Orientada a Objetos,Estructura de Datos,Programación Orientada a Objetos,Proyectos de Tecnologías de la Información;
+    horario: (Lunes:16:45-20:45;Martes:16:45-20:45;Miercoles:16:45-20:45;Jueves:16:45-20:45;Viernes:16:45-20:45);
+    color: 171,71,188;
+}
+{
+    nombre:Hugo E. Treviño;
+    materias:Ingeniería de Requerimientos,Herramientas Ofimáticas,Lógica Computacional,Introducción a la Programación Orientada a Objetos,Estructura de Datos,Programación Orientada a Objetos,Proyectos de Tecnologías de la Información;
+    horario: (Lunes:16:45-20:45;Martes:16:45-20:45;Miercoles:16:45-20:45;Jueves:16:45-20:45;Viernes:16:45-20:45);
+    color: 0,172,193;
+}
+{
+    nombre:Adriana Lizeth Trujillo;
+    materias:Lógica Computacional,Ingeniería de Requerimientos,Herramientas Ofimáticas,Lógica Computacional,Introducción a la Programación Orientada a Objetos,Estructura de Datos,Programación Orientada a Objetos,Proyectos de Tecnologías de la Información;
+    horario: (Lunes:15:50-19:50;Martes:15:50-19:50;Miercoles:15:50-19:50;Jueves:15:50-19:50;Viernes:15:50-19:50);
+    color: 255,112,67;
+}
+{
+    nombre:Luis R. De la Fuente;
+    materias:Lógica Computacional,Ingeniería de Requerimientos,Herramientas Ofimáticas,Lógica Computacional,Introducción a la Programación Orientada a Objetos,Estructura de Datos,Programación Orientada a Objetos,Proyectos de Tecnologías de la Información;
+    horario: (Lunes:16:45-20:45;Martes:16:45-20:45;Miercoles:16:45-20:45;Jueves:16:45-20:45;Viernes:16:45-20:45);
+    color: 158,158,158;
+}
+{
+    nombre:Erendira Guitierrez Meza;
+    materias:Matemáticas Básicas,Matemáticas Discretas,Fundamentos de Física,Matemáticas Discretas,Álgebra Lineal,Probabilidad y Estadística,Administración de Sistemas Integrales;
+    horario: (Lunes:11:00-13:55;Martes:11:00-13:55;Miercoles:11:00-13:55;Jueves:11:00-13:55;Viernes:11:00-13:55);
+    color: 240,98,146;
+}
+{
+    nombre:pato;
+    materias:Ingles I,Ingles II,Ingles III, Ingles IV, Ingles V;
+    horario: (Lunes:7:00-13:55;Martes:7:00-13:55;Miercoles:7:00-13:55;Jueves:7:00-13:55;Viernes:7:00-13:55);
+    color: 98,160,234;
+}
+{
+    nombre:pato2;
+    materias:Ingles I,Ingles II,Ingles III, Ingles IV, Ingles V;
+    horario: (Lunes:7:00-13:55;Martes:7:00-13:55;Miercoles:7:00-13:55;Jueves:7:00-13:55;Viernes:7:00-13:55);
+    color: 98,160,234;
+}

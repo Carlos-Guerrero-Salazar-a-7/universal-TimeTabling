@@ -1,0 +1,26 @@
+
+{
+    nombre:primeros;
+    materias:Ingles I,Algoritmos,herramientas Ofimáticas,Introducción a la ITI,Arquitectura de Computadoras,Matemáticas Básicas;
+}
+{
+    nombre:segundos;
+    materias:Ingles II,Lógica Computacional,Inteligencia Emocional,Herramientas Multimedia,Fundamentos de Redes,Fundamentos de Física,Matemáticas Discretas;
+}
+{
+    nombre:cuartos;
+    materias:Ingles III,Habilidades del Pensamiento,Introducción a la Programación Orientada a Objetos,Introducción a las Bases de Datos,Switcheo y Wireless,Álgebra Lineal;
+}
+{
+    nombre:quintos;
+    materias:Ingles IV,Habilidades Organizacionales,Estructura de Datos,Diseño de Bases de Datos,Tecnologías WAN,Probabilidad y Estadística,Ingeniería de Requerimientos;
+}
+{
+    nombre:septimos;
+    materias:Ingles V,Diseño de Interfaces,Programación Orientada a Objetos,Seguridad Informática,Introducción a la Graficación por Computadora,Seminario de Investigación;
+}
+{
+    nombre:octavos;
+    materias:Negocios Electrónicos,Programación WEB,Minería de Datos Aplicada,Graficación Por Computadora Avanzada,Proyectos de Tecnologías de la Información,Administración de Sistemas Integrales;
+}
+

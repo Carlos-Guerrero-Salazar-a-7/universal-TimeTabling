@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuarterDetailsWidget</class>
+ <widget class="QWidget" name="QuarterDetailsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1231</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QFrame" name="topBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1231</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #34495e;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="backButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>15</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2c3e50;
+color: white;
+border-radius: 5px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Regresar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyButton">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>15</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2ecc71;
+color: white;
+border-radius: 5px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Aplicar Cambios</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="titleLabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 32px;
+color: black;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Datos del Cuatrimestre</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="subjectsLabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 14px;
+color: #555;</string>
+   </property>
+   <property name="text">
+    <string>Materias</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="subjectsTable">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>601</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QHeaderView::section {
+    background-color: #5c7c9e;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+QTableWidget {
+    gridline-color: #fff;
+    background-color: #5c7c9e;
+    color: white;
+}
+QTableWidget::item {
+    border: 1px solid #fff;
+}</string>
+   </property>
+   <property name="columnCount">
+    <number>2</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Materias</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Horas</string>
+    </property>
+   </column>
+   <row/>
+   <item row="0" column="0">
+    <property name="text">
+     <string>Materia</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="addSubjectButton">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>370</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #d4ac0d;
+color: white;
+border-radius: 5px;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>+ Agregar materia</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

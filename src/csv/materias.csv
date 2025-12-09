@@ -1,0 +1,191 @@
+#Creo que esto daria igual como tengo pensado
+{
+nombre:Ingles I;
+horas_necesarias: 5;
+salon_especial:sala_ingles;
+}
+{
+nombre:Ingles II;
+horas_necesarias: 5;
+salon_especial:sala_ingles;
+}
+{
+nombre:Ingles III;
+horas_necesarias: 5;
+salon_especial:sala_ingles;
+}
+{
+nombre:Ingles IV;
+horas_necesarias: 5;
+salon_especial:sala_ingles;
+}
+{
+nombre:Ingles V;
+horas_necesarias: 5;
+salon_especial:sala_ingles;
+}
+{
+nombre:Algoritmos;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Herramientas Ofimáticas;
+horas_necesarias: 4;
+salon_especial:ninguna;
+}
+{
+nombre:Introducción a la ITI;
+horas_necesarias: 3;
+salon_especial:ninguna;
+}
+{
+nombre:Arquitectura de Computadoras;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Matemáticas Básicas;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Lógica Computacional;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Inteligencia Emocional;
+horas_necesarias: 3;
+salon_especial:ninguna;
+}
+{
+nombre:Herramientas Multimedia;
+horas_necesarias: 4;
+salon_especial:ninguna;
+}
+{
+nombre:Fundamentos de Redes;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Fundamentos de Física;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Matemáticas Discretas;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Habilidades del Pensamiento;
+horas_necesarias: 4;
+salon_especial:ninguna;
+}
+{
+nombre:Introducción a la Programación Orientada a Objetos;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Introducción a las Bases de Datos;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Switcheo y Wireless;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Álgebra Lineal;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Habilidades Organizacionales;
+horas_necesarias: 3;
+salon_especial:ninguna;
+}
+{
+nombre:Estructura de Datos;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Diseño de Bases de Datos;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Tecnologías WAN;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Probabilidad y Estadística;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Ingeniería de Requerimientos;
+horas_necesarias: 4;
+salon_especial:ninguna;
+}
+{
+nombre:Diseño de Interfaces;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Programación Orientada a Objetos;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Seguridad Informática;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Introducción a la Graficación por Computadora;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Seminario de Investigación;
+horas_necesarias: 4;
+salon_especial:ninguna;
+}
+{
+nombre:Negocios Electrónicos;
+horas_necesarias: 3;
+salon_especial:ninguna;
+}
+{
+nombre:Programación WEB;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Minería de Datos Aplicada;
+horas_necesarias: 5;
+salon_especial:ninguna;
+}
+{
+nombre:Graficación Por Computadora Avanzada;
+horas_necesarias: 6;
+salon_especial:ninguna;
+}
+{
+nombre:Proyectos de Tecnologías de la Información;
+horas_necesarias: 3;
+salon_especial:ninguna;
+}
+{
+nombre:Administración de Sistemas Integrales;
+horas_necesarias: 3;
+salon_especial:ninguna;
+}

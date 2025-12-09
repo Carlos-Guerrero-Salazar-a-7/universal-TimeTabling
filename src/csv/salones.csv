@@ -1,0 +1,61 @@
+{
+    nombre:A1;
+    tipo:Normal;
+    salon:Sala_de_computo;
+}
+{
+    nombre:202;
+    salon:Sala_de_computo;
+}
+{
+    nombre:203;
+    salon:Sala_de_computo;
+}
+{
+    nombre:204;
+    salon:Sala_de_computo;
+}
+{
+    nombre:205;
+    salon:Sala_de_computo;
+}
+{
+    nombre:206;
+    salon:Sala_de_computo;
+}
+{
+    nombre:207;
+    salon:Sala_de_computo;
+}
+{
+    nombre:208;
+    salon:Sala_de_computo;
+}
+{
+    nombre:209;
+    salon:Sala_de_computo;
+}
+{
+    nombre:210;
+    salon:Sala_de_computo;
+}
+{
+    nombre:ingles1;
+    salon:sala_ingles;
+}
+{
+    nombre:ingles2;
+    salon:sala_ingles;
+}
+{
+    nombre:210;
+    salon:Sala_de_computo;
+}
+{
+    nombre:211;
+    salon:Sala_de_computo;
+}
+{
+    nombre:212;
+    salon:Sala_de_computo;
+}

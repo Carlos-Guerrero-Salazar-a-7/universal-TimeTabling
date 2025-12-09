@@ -21,8 +21,10 @@ Paginas hechas en qt para el manejo de datos. cada acción esta de raiz de la ca
 
 
 Instalación:
-descarga todo el sistema.
-ingresa en build y haz click en el ejecutable "timetabling",
+-descarga todo el sistema.
+-descomprime la carpeta zip.
+-ingresa en la carpeta build .
+-haz click en el ejecutable "timetabling".
 
 Caso de errores:
 si existen errores hagan el favor de instalar qt para el sistema.

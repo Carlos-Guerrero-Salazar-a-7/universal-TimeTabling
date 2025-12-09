@@ -1,4 +1,4 @@
-Sistema de resolución de Universal Timetabling (situacion escolar/universitaria):
+<b>Sistema de resolución de Universal Timetabling (situacion escolar/universitaria):</b>
 
 Sistema enfocado en resolver el universal timetabling para universidades, donde los elemento en los que se basan son los grupos,salones y maestros que conforman la escuela, el sistema es capaz de generar una representación visual de todos los valores necesarios para el sistema:
 
@@ -18,3 +18,12 @@ Administración del sistema qt
 
 Paginas hechas en qt para el manejo de datos. cada acción esta de raiz de la carga de datos del sistema.
 ![Como se ve los horarios resueltos](img/a.png)
+
+
+Instalación:
+descarga todo el sistema.
+ingresa en build y haz click en el ejecutable "timetabling",
+
+Caso de errores:
+si existen errores hagan el favor de instalar qt para el sistema.
+si no tiene archivos actualmente verifique que en src/csv/ existan archivos csv, si no vuelva a descargar los archivos.
